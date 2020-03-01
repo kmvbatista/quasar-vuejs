@@ -1,0 +1,20 @@
+.calendar {
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
+@media (min-width: 1265px) {
+  .formPadding {
+    padding: 75px 0px;
+  }
+}
+@media (min-width: 960px) {
+  .screen {
+    padding: 0 99px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .v-input {
+    max-width: -1% !important;
+  }
+}
